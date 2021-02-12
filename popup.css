@@ -1,0 +1,39 @@
+/* POP UP */
+.popup{
+    position: fixed;
+    width: 980px;
+    padding: 50px;
+    height: 630px;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popup:target{
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup__body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup__content{
+    background-color: #fff;
+    color: #000;
+    width: 400px;
+    height: 300px;
+}
+
+.popup__close{
+
+}
+
+.popup__text{
+
+}

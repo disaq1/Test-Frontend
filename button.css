@@ -1,0 +1,37 @@
+/* Стили для кнопок  */
+
+.map__button{
+    position: relative;
+    left: 560px;
+    top: 490px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    margin-right: 10px;
+}    
+
+.btn__chat{
+    background: linear-gradient(to top, #074c4f, #458b7f);
+}
+
+.btn__move{
+    width: 200px;
+    color: #ffffff;
+    font-size: ;
+    background: linear-gradient(to top, #863811, #cd5416);
+}
+
+.btn__message{
+    background: linear-gradient(to top, #238599, #5dbbc9);
+}
+
+.btn__rating{
+    background: linear-gradient(to top, #238599, #5dbbc9);
+}
