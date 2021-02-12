@@ -4,11 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="move.css">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="button.css">
     <title>Map</title>
 </head>
 <body>
-    <div class="test">
-        <div class="test__container"></div>
+    <div class=" map">
+        <div class="map__girl">
+            <img class="girl" src="/img/girl-icon.png" alt="girl-icon">
+        </div>
+
+        <!-- slider -->
+        
+        <div class="map__button">
+            <button class="btn btn__chat"></button>
+            <button class="btn btn__move" id="btn__move">в универ</button>
+            <button class="btn btn__message"></button>
+            <a href="#popup"><button class="btn btn__rating"></button></a>
+        </div>
+        <!-- pop up -->
+        <div id="popup" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="" class="popup__close"></a>
+                    <div class="popup__text">Hello WORLD</div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    
+<script src="http://underscorejs.ru/underscore-min.js"></script>
+<script src="/data.js"></script>
+<script src="/script.js"></script>
 </body>
 </html>
