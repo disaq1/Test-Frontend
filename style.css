@@ -2,6 +2,18 @@ body{
     padding: 0;
     margin: 0;
 }
+body.lock{
+    overflow: hidden;
+}
+
+button{
+    outline: none;
+}
+
+.wrapper{
+    padding: 0;
+    margin: 0;
+}
 /* Основной контейнер */
 .map{
     width: 980px;
@@ -11,37 +23,4 @@ body{
     background-image: url(/img/map.png);
     background-repeat: no-repeat;
     background-size: contain;
-}
-/* Анимации для Девушки */
-.map__girl{
-    transform: translate(-10px, -59px);
-    width: 21px;
-    height: 69px;
-    position: relative;
-    left: 0;
-    background-size: contain;
-    background-repeat: no-repeat;
-    
-    animation: move1semestr_1 2s alternate forwards linear;
-    animation-play-state: paused;
-}
-/* Класс для запуска анимации  */
-.run{
-    animation-play-state: running;
-
-}
-
-/*Анимация движения девушки при наведении*/
-.girl:hover{
-
-    animation: updown .001s alternate infinite ease 200ms;
-}
-
-@keyframes updown{
-    0%{
-        transform: translateY(0);
-    }
-    100%{
-        transform: translateY(-24px);
-    }
 }
