@@ -21,10 +21,15 @@
     background: linear-gradient(to top, #074c4f, #458b7f);
 }
 
+.btn__chat:hover{
+    background: linear-gradient(to top, #105a66, #29c4de);
+}
+
 .btn__move{
     width: 200px;
     color: #ffffff;
-    font-size: ;
+    font-size: 35px;
+    text-transform: uppercase;
     background: linear-gradient(to top, #863811, #cd5416);
 }
 
