@@ -20,7 +20,7 @@ button{
     padding: 50px;
     height: 630px;
     position: absolute;
-    background-image: url(/img/map.png);
+    background-image: url(/img/map.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }

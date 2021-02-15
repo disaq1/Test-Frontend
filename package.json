@@ -1,0 +1,30 @@
+{
+  "name": "test-front",
+  "version": "1.0.0",
+  "description": "сборка t-f",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disaq1/Test-Frontend.git"
+  },
+  "author": "Slava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/disaq1/Test-Frontend/issues"
+  },
+  "homepage": "https://github.com/disaq1/Test-Frontend#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.3.0"
+  },
+  "dependencies": {
+    "del": "^6.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}

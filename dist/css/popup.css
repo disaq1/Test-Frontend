@@ -1,0 +1,62 @@
+/* POP UP */
+.popup {
+  position: inherit;
+  width: 980px;
+  padding: 50px;
+  height: 594px;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.8s ease 0.1s;
+}
+
+.popup.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup.open .popup__content {
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.popup__body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup__content {
+  background-image: url(/img/rating-bg.jpg);
+  background-repeat: no-repeat;
+  color: #000;
+  width: 580px;
+  height: 500px;
+  transition: all 0.8s ease 0.1s;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  opacity: 0;
+  transform: translate(80%, 70%);
+}
+
+.popup__close {
+  position: absolute;
+  left: 475px;
+}
+
+.popup__text {
+  background: linear-gradient(to top, #005d70, #008daa);
+  border-radius: 10px;
+  padding: 3px;
+  text-align: center;
+  position: absolute;
+  top: -18px;
+  font-weight: 900;
+  color: #fff;
+  left: 175px;
+  font-size: 26px;
+}
